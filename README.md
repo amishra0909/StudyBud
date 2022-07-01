@@ -17,15 +17,29 @@ cd StudyBud
 --> Create a virtual environment :
 ```bash
 # Let's install virtualenv first
-pip install virtualenv
+pip install virtualenvwrapper
+
+# Change the $WORKON_PATH env variable to place where you want to keep all virtualenvs
 
 # Then we create our virtual environment
-virtualenv envname
+mkvirtualenv envname
 
 ```
 
 --> Activate the virtual environment :
 ```bash
-envname\scripts\activate
+workon envname
 
+```
+
+--> Install Django :
+```bash
+pip install django
+
+```
+
+--> Change directory and start django server :
+```bash
+cd studybud
+python manage.py runserver
 ```
