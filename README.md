@@ -17,7 +17,7 @@ cd StudyBud
 --> Create a virtual environment :
 ```bash
 # Let's install virtualenv first
-pip install virtualenvwrapper
+sudo pip install virtualenvwrapper
 
 # Change the $WORKON_PATH env variable to place where you want to keep all virtualenvs
 
